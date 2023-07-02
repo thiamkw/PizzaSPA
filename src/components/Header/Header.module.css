@@ -1,0 +1,15 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+  }
+  

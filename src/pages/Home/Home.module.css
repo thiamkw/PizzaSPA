@@ -1,0 +1,14 @@
+.homePage {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .dropdown {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+  }

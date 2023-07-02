@@ -1,0 +1,77 @@
+.toppingList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Change to flex-start */
+  padding: 20px; /* Add padding on all sides */
+  background-color: #f8f9fa;
+}
+
+.toppingCard {
+  flex: 0 1 calc(33.3333% - 1em - 40px); /* Subtract double the margin to keep proper width */
+  border: 1px solid #eee;
+  margin: 20px; /* Add margin for spacing between items */
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.toppingCard:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.toppingCard h2 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.toppingCard p {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.toppingCard button {
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toppingCard button:hover {
+  background-color: #0056b3;
+}
+
+.pizzaDetail {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.totalPrice {
+  font-size: 1.5em;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+
+.actionButton {
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.actionButton:hover {
+  background-color: #0056b3;
+}
